@@ -1,0 +1,94 @@
+
+
+var letters = {
+"S":{
+	"pic":["w/19_Ss/sea.jpg",
+	"w/19_Ss/seahorse.jpg",
+	"w/19_Ss/seastar.jpg",
+	"w/19_Ss/six.jpg"]
+	,
+	"mp3":["w/19_Ss/sea.mp3",
+	"w/19_Ss/seahorse.mp3",
+	"w/19_Ss/seastar.mp3",
+	"w/19_Ss/six.mp3"]
+},
+"T":{
+	"pic":["w/20_Tt/tiger.jpg",
+	"w/20_Tt/train.jpg",
+	"w/20_Tt/turkey.jpg",
+	"w/20_Tt/turtle.jpg"]
+	,
+	"mp3":["w/20_Tt/tiger.mp3",
+	"w/20_Tt/train.mp3",
+	"w/20_Tt/turkey.mp3",
+	"w/20_Tt/turtle.mp3"]
+},
+"U":{
+	"pic":["w/21_Uu/umbrella.jpg",
+	"w/21_Uu/uncle.jpg",
+	"w/21_Uu/under.jpg",
+	"w/21_Uu/up.jpg"]
+	,
+	"mp3":["w/21_Uu/umbrella.mp3",
+	"w/21_Uu/uncle.mp3",
+	"w/21_Uu/under.mp3",
+	"w/21_Uu/up.mp3"]
+},
+"V":{
+	"pic":["w/22_Vv/van.jpg",
+	"w/22_Vv/vase.jpg",
+	"w/22_Vv/veggies.jpg",
+	"w/22_Vv/violin.jpg"]
+	,
+	"mp3":["w/22_Vv/van.mp3",
+	"w/22_Vv/vase.mp3",
+	"w/22_Vv/veggies.mp3",
+	"w/22_Vv/violin.mp3"]
+},
+"W":
+	{
+	"pic":
+	["w/23_Ww/white.jpg",
+	"w/23_Ww/winter.jpg",
+	"w/23_Ww/witch.jpg",
+	"w/23_Ww/wolf.jpg"],
+	"mp3":
+	["w/23_Ww/white.mp3",
+	"w/23_Ww/winter.mp3",
+	"w/23_Ww/witch.mp3",
+	"w/23_Ww/wolf.mp3"]
+	},
+"X":{
+	"pic":["w/24_Xx/box.jpg",
+	"w/24_Xx/fox.jpg",
+	"w/24_Xx/x-ray.jpg",
+	"w/24_Xx/xylophone.jpg"]
+	,
+	"mp3":["w/24_Xx/box.mp3",
+	"w/24_Xx/fox.mp3",
+	"w/24_Xx/x-ray.mp3",
+	"w/24_Xx/xylophone.mp3"]
+	},
+"Y":{
+	"pic":["w/25_Yy/yacht.jpg",
+	"w/25_Yy/yam.jpg",
+	"w/25_Yy/yo-yo.jpg",
+	"w/25_Yy/yogurt.jpg"]
+	,
+	"mp3":["w/25_Yy/yacht.mp3",
+	"w/25_Yy/yam.mp3",
+	"w/25_Yy/yo-yo.mp3",
+	"w/25_Yy/yogurt.mp3"]
+},
+"Z":{
+	"pic":["w/26_Zz/zebra.jpg",
+	"w/26_Zz/zigzag.jpg",
+	"w/26_Zz/zoo.jpg",
+	"w/26_Zz/zookeeper.jpg"]
+	,
+	"mp3":["w/26_Zz/zebra.mp3",
+	"w/26_Zz/zigzag.mp3",
+	"w/26_Zz/zoo.mp3",
+	"w/26_Zz/zookeeper.mp3"]
+}
+};

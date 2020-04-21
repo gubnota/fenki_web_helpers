@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-512x512-precomposed.png">
+	<link rel="icon" sizes="512x512" href="/assets/img/apple-touch-icon-512x512-precomposed.png">
+	<link rel="icon" sizes="192x192" href="/assets/img/apple-touch-icon-192x192-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="512x512" href="/assets/img/apple-touch-icon-512x512-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="192x192" href="/assets/img/apple-touch-icon-192x192-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/img/apple-touch-icon-180x180-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/apple-touch-icon-152x152-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/apple-touch-icon-120x120-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/apple-touch-icon-76x76-precomposed.png">
+	<link rel="icon" href="/assets/img/apple-touch-icon.png">
+	<title>Hello, guest!</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/style.200421091322.css">
+<script type="text/javascript" src="/assets/js/app.200421091322.js"></script>
+</head>
+<body>
+<div id="content" style="padding: 1em">
+	<h1><u>Hello</u>, guest!</h1>
+<p>This is a simplified one-page web app template. Simply, run the script (you should install when-changed pip package first):</p>
+	<code>./run.sh</code>
+<p>And the page and all related css/js will be rebuilt after each change in one of the file in ‘assets’ folder.</p>
+<script type="text/javascript">
+window.app_ver=200421091322;
+if (location.search.indexOf('nodebug') !== -1) {window.debug=false;}
+else if (location.search.indexOf('debug') !== -1) {window.debug=true;}
+else {window.debug=false;}
+window.addEventListener('load',function () {
+	// app.split.init();
+	// app.prevent.init();//prevent pinch scale on mobile devices
+app.log({'w':window.innerWidth,'h':window.innerHeight});
+});
+</script>
+</body>
+</html>
