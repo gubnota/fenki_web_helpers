@@ -16,8 +16,8 @@
 	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/apple-touch-icon-76x76-precomposed.png">
 	<link rel="icon" href="/assets/img/apple-touch-icon.png">
 	<title>Hello, guest!</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/style.200421095743.css">
-<script type="text/javascript" src="/assets/js/app.200421095743.js"></script>
+<link rel="stylesheet" type="text/css" href="/assets/css/style.{{time}}.css">
+<script type="text/javascript" src="/assets/js/app.{{time}}.js"></script>
 </head>
 <body>
 <div id="content" style="padding: 1em">
@@ -26,7 +26,7 @@
 	<code>./run.sh</code>
 <p>And the page and all related css/js will be rebuilt after each change in one of the file in ‘assets’ folder.</p>
 <script type="text/javascript">
-window.app_ver=200421095743;
+window.app_ver={{time}};
 if (location.search.indexOf('nodebug') !== -1) {window.debug=false;}
 else if (location.search.indexOf('debug') !== -1) {window.debug=true;}
 else {window.debug=false;}
